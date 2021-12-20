@@ -5,5 +5,5 @@
 </template>
 
 <script setup lang="ts">
-const n = 10
+const n = 10;;
 </script>
