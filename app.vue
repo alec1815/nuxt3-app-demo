@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{n }}-{{n}}
+    {{n}}-{{n}}
   </div>
 </template>
 

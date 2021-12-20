@@ -22,9 +22,14 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*.{js,ts,vue}": [
-      "eslint --fix"
+      "eslint --ext .ts,.js,.vue --ignore-path .gitignore ."
     ]
   }
 }
