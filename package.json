@@ -11,7 +11,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "commitizen": "^4.2.4",
+    "cz-customizable": "^6.3.0",
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^3.1.0",
@@ -21,6 +21,11 @@
     "nuxt3": "latest",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
   },
   "husky": {
     "hooks": {
@@ -32,5 +37,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "commitizen": "^4.2.4"
   }
 }
