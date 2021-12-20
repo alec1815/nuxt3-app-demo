@@ -11,6 +11,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "commitizen": "^4.2.4",
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^3.1.0",
@@ -23,8 +24,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,ts,vue}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   }
 }
