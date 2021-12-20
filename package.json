@@ -28,8 +28,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,ts,vue}": [
-      "eslint --ext .ts,.js,.vue --ignore-path .gitignore ."
+    "*.{js,ts,vue}": [
+      "eslint --ext"
     ]
   }
 }
