@@ -1,7 +1,5 @@
 <template>
-  <div>
-    {{n }}-{{n}}
-  </div>
+  <div>{{ n }}-{{ n }}</div>
 </template>
 
 <script setup lang="ts">
