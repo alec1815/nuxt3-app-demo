@@ -1,0 +1,3 @@
+<template>
+  <Nav></Nav>
+</template>

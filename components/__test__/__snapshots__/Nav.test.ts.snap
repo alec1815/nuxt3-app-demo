@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should render correctly 1`] = `
+<div
+  class="nav"
+>
+  <div
+    class="nav-item"
+  >
+    <a>
+      商品
+    </a>
+  </div>
+  <span>
+    |
+  </span>
+  <div>
+    <a>
+      购物车 (0)
+    </a>
+  </div>
+</div>
+`;

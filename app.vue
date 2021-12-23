@@ -1,7 +1,5 @@
 <template>
-  <div>{{ n }}-{{ n }}</div>
+  <div>
+    <NuxtPage />
+  </div>
 </template>
-
-<script setup lang="ts">
-const n = 10
-</script>
